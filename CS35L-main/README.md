@@ -3,6 +3,10 @@
 ###### Ethan Hopkins, Isaac Pinto, Michael Lui, Victoria Yu
 ###### 6 December 2023
 
+## Video Presentation
+
+https://youtu.be/hPZSfirPL4E?si=dSQfL1w5AJoini_L
+
 ## Introduction
 
 This group project was created as the final submission for
