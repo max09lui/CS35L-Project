@@ -1,0 +1,53 @@
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  /* Style for the overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
+    z-index: 999;
+  }
+  
+  /* Hide the overlay by default */
+  .overlay.hidden {
+    display: none;
+  }
+
+  .friend-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-list li {
+    margin-bottom: 10px; /* Adjust the spacing between each friend */
+  }
+
+
+  .friend-linkc {
+    text-decoration: none; /* Remove default underline */
+    color: black; /* Set the initial text color */
+    transition: all 0.3s ease; /* Add smooth transition for color and transform */
+    background: lightblue;
+    border-radius: 8px;
+    padding:5px;
+    display: inline-block;
+    margin-left:-35px;
+    margin-bottom:5px;
+
+    &:hover {
+        transform: scale(1.05); /* Scale text on hover */
+      }
+}
